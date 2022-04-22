@@ -1,0 +1,458 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+nav {
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    position: fixed;
+    background-color: white;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#home {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000 100%), url(https://cdn.discordapp.com/attachments/849966051969728512/966813179290206339/bg-masthead.jpg);
+    background-size: 100%;
+    background-position: center;
+}
+
+
+.logo {
+    width: 20%;
+    float: left;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 6%;
+    font-weight: 620;
+    letter-spacing: 1px;
+    color: black;
+}
+
+.menu {
+    float: right;
+    padding-right: 12%;
+}
+
+.menu li {
+    display: inline;
+    margin: 5px 5px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.menu li a {
+    color: black;
+    padding: 0 18px;
+}
+
+.menu li a:hover {
+    color: rgb(172, 172, 172);
+    transition: 0.2sn;
+}
+
+.header {
+    color: #6E6E6E;
+    font-size: 60px;
+    padding: 15%;
+    text-align: center;
+    padding-bottom: 0;
+}
+
+.header h1 {
+    text-transform: uppercase !important;
+    font-weight: 500;
+    background: linear-gradient(rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0));
+    font-family: "Varela Round";
+    letter-spacing: 15px;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.content {
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+}
+
+.content h2 {
+    font-weight: 400;
+    padding-bottom: 5rem;
+}
+
+
+.btn-control {
+    text-align: center;
+    justify-content: center;
+}
+
+
+.btn-control {
+    margin-top: 20;
+}
+
+.btn {
+    padding: 1.35rem 2rem;
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+    color: #fff;
+    background-color: #64a19d;
+    border-radius: 5%;
+}
+
+.btn:hover {
+    color: rgb(172, 172, 172);
+    transition: 0.2sn;
+}
+
+#about {
+    background: rgba(0, 0, 0, 0.952);
+}
+
+.about-img {
+    width: 100%;
+    height: 55vh;
+    padding-top: 2rem;
+    background-size: 55%;
+    background-image: url(https://cdn.discordapp.com/attachments/849966051969728512/966828099314520064/ipad.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.about-content {
+    color: aliceblue;
+    text-align: center;
+    background-position: center;
+}
+
+.about-content h2 {
+    font-weight: 500;
+    font-size: 30px;
+    letter-spacing: 0.15rem;
+}
+
+.about-content p {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 15px;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.about-content p a {
+    text-decoration: underline;
+    color: rgb(37, 153, 153);
+}
+
+.container-flex {
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    display: flex;
+    gap: 100px;
+    padding-left: 10rem;
+    padding-right: 25rem;
+    padding-bottom: 3.5rem;
+}
+
+.container-flex img {
+    padding-top: 3.5rem;
+    display: flex;
+    padding-left: 12.5rem;
+    height: 600px
+}
+
+.flex-group h3 {
+    text-align: center;
+    color: rgb(33, 37, 41);
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.flex-group p {
+    text-align: center;
+    color: rgb(172, 172, 172);
+    font-size: 16px;
+    width: 300px;
+}
+
+#flexxed {
+    width: 1212px;
+    height: 437px;
+    display: flex;
+    margin-left: 12%;
+}
+
+#flexxed div {
+    -ms-flex: 1;
+    flex: 1;
+}
+
+.white-text {
+    color: white;
+    text-align: center;
+    margin-top: 30%;
+    font-size: 30px;
+    font-weight: 300;
+    justify-content: center;
+}
+
+.Flexxed-imgs1 {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/demo-image-01.jpg);
+    background-position: center;
+}
+
+.Flexxed-imgs2 {
+    background-image: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/demo-image-02.jpg);
+    background-position: center;
+}
+
+
+.item p {
+    justify-content: center;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+.bg-black p {
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.mg-b {
+    margin-bottom: 10rem;
+}
+
+#contact {
+    padding: 10rem 0;
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000 100%), url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-signup.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+}
+
+#contact {
+    color: white;
+}
+
+#contact i {
+    margin-top: -5rem;
+    font-size: 50px;
+
+}
+
+.center {
+    text-align: center;
+}
+
+.center h2 {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    padding-bottom: 2rem;
+}
+
+.col {
+    flex: 1 0 0%;
+    background-position: center;
+}
+
+.row {
+    display: inline;
+    text-align: center;
+    background-position: center;
+}
+
+
+.form-control {
+    float: left;
+    margin-left: 33rem;
+    text-align: center;
+    width: 20%;
+    padding: 0.375rem 0.75rem;
+    font-size: 1.2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: 0.25rem;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn1 {
+    border-radius: 5px;
+    margin-right: 34rem;
+    float: right;
+    box-shadow: 0 0.1875rem 0.1875rem 0 rgb(0 0 0 / 10%) !important;
+    padding: 1.25rem 2rem;
+    font-family: "Varela Round", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 80%;
+    text-transform: uppercase;
+    letter-spacing: 0.15rem;
+    border: 0;
+}
+
+.btn-primary {
+    color: #fff;
+    background-color: #64a19d;
+    border-color: #64a19d;
+}
+
+
+.row input {
+    height: 7vh;
+}
+
+.px-lg-5 {
+    padding-right: 3rem !important;
+    padding-left: 3rem !important;
+}
+
+.px-4 {
+    padding-right: 1.5rem !important;
+    padding-left: 1.5rem !important;
+}
+
+.container-lg,
+.container-md,
+.container-sm,
+.container {
+    max-width: 960px;
+}
+
+.container,
+.container-fluid,
+.container-xxl,
+.container-xl,
+.container-lg,
+.container-md,
+.container-sm {
+    width: 100%;
+    padding-right: var(--bs-gutter-x, 0.75rem);
+    padding-left: var(--bs-gutter-x, 0.75rem);
+    margin-right: auto;
+    margin-left: auto;
+}
+
+div {
+    display: block;
+}
+
+.row1 {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+}
+
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+.mb-md-0 {
+    margin-bottom: 0 !important;
+}
+
+.contact-section .card {
+    border: 0;
+    border-bottom: 0.25rem solid #64a19d;
+}
+
+.py-4 {
+    padding-top: 1.5rem !important;
+    padding-bottom: 1.5rem !important;
+}
+
+.h-100 {
+    height: 100% !important;
+}
+
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+    border-radius: 0.25rem;
+}
+
+.card-body {
+    flex: 1 1 auto;
+    padding: 1rem 1rem;
+}
+
+.text-center {
+    text-align: center !important;
+}
+
+.text-primary {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-primary-rgb), var(--bs-text-opacity)) !important;
+}
+
+svg:not(:host).svg-inline--fa,
+svg:not(:root).svg-inline--fa {
+    overflow: visible;
+    box-sizing: content-box;
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem !important;
+}
+
+.svg-inline--fa {
+    display: var(--fa-display, inline-block);
+    height: 1em;
+    overflow: visible;
+    vertical-align: -.125em;
+}
+
+.row>* {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+}
+
+.col-md-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+}
+
+body {
+    letter-spacing: 0.0625em;
+}
+
+.contact-section {
+    padding-bottom: 5rem;
+}
